@@ -1,6 +1,8 @@
 foreach $images do
   <div class="image">
-    <img src="thumber.php?img=@url&w=540" alt="@title" >
+    <a class="imageZoom" rel="images" href="thumber.php?img=@url&w=1200" style="border:none;text-decoration: none;">
+      <img src="thumber.php?img=@url&w=540" alt="@title" >
+    </a>
     if @description do
       <em>@description</em>
     endif
